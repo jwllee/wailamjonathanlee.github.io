@@ -1,5 +1,5 @@
 ---
-layout: post
+type: posts
 title: "First post"
 date: 2017-08-12
 ---

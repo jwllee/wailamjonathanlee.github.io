@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : "Wai Lam Jonathan LEE"
 description              : "A virtual space to keep track of my research and other thoughts."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # repository             GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 repository               : wailamjonathanlee/wailamjonathanlee.github.io
 theme                    : minimal-mistakes-jekyll
@@ -22,6 +22,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # destination: ../build
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+future                   : true
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -242,9 +243,9 @@ defaults:
   # setting default layout for _posts types
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
-      layout: single
+      layout: "single"
       author_profile: true
       read_time: true
       comments: true
