@@ -1,5 +1,5 @@
 ---
-title: "New Python package: OpyenXes as a python implementation of the XES standard"
+title: "New Python package: OpyenXes as a Python implementation of the XES standard"
 date: 2017-11-08
 type: posts
 published: true
