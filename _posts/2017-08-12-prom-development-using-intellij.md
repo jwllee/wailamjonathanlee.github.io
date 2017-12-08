@@ -7,7 +7,7 @@ tags: ["Process Mining", "ProM"]
 published: true
 ---
 
-While ProM plugin development has been traditionally done on [Eclipse](http://www.win.tue.nl/~hverbeek/blog/2017/06/19/developing-and-running-prom-plug-ins-on-your-local-computer/), here I show how it can also be done in IntelliJ by performing the following steps:
+While ProM plugin development has been traditionally done on [Eclipse](http://www.win.tue.nl/~hverbeek/blog/2017/06/19/developing-and-running-prom-plug-ins-on-your-local-computer/), here I experimented with how it can also be done in IntelliJ by performing the following steps:
 1. Install IntelliJ 
 2. Download the [Ivy plugin](https://plugins.jetbrains.com/plugin/3612-ivyidea) and [Eclipser plugin](https://plugins.jetbrains.com/plugin/7153-eclipser). They will be in zip files; put the content (.jars) at *whereIntelliJIsInstalled/lib/*.
 
