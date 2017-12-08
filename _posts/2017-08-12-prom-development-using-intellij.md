@@ -4,8 +4,7 @@ title: "ProM development using IntelliJ"
 date: 2017-08-12
 categories: ProM
 tags: ["Process Mining", "ProM"]
-
-published: false
+published: true
 ---
 
 While ProM plugin development has been traditionally done on [Eclipse](http://www.win.tue.nl/~hverbeek/blog/2017/06/19/developing-and-running-prom-plug-ins-on-your-local-computer/), here I show how it can also be done in IntelliJ by performing the following steps:
