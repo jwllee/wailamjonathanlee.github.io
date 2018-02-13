@@ -4,7 +4,7 @@ date: 2018-01-09
 type: posts
 published: true
 comments: true
-categories: prom
+categories: [ "prom" ]
 ---
 
 #### TR;DR
