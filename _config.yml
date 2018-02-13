@@ -35,7 +35,24 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "/_data/comments/{options.slug}"  # "/_data/comments/{options.slug}" (default)
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+reCaptcha:
+  siteKey                : "6LdYNUYUAAAAAMde5YRs80e4HPs_uDgQHyoOmyVe"
+  secret                 : "IznkUN6FPQw6deK8hoLSKdDde0EEVxo6hqCuuNqYyelRqEEVOSRlTcaxipJlguauCc7q40I7SXpObkfSuT8HV5VVYQRlwMHKa1IqvUe6/VoU7a8kLpTVnRNmCpIoIy7sUI/hLpnMcSl59QaYhiemnOsGwgF09aJkaOzsUHJEuAg="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
