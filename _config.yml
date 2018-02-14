@@ -51,7 +51,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  enabled                : false
+  enabled                : true
   siteKey                : "6LdYNUYUAAAAAMde5YRs80e4HPs_uDgQHyoOmyVe"
   secret                 : "ZrR1jbiPxesEhcPWk99l62Vt+kM2T/yI62uzlzKiNf5gZCVkM97A2sunbZGVo2BsF5nXxsUYfsQmadw0qrdAcInoAQygs59uoCjYBRMDWRhOvFBsV3AMv9zjUZgzbAF3xyPUqDfp2v0lIkwagCacOFibj1mdhcVBnEsPhu454yo="
 atom_feed:
