@@ -115,7 +115,7 @@ ax.set_xlim([-np.pi, np.pi]);
 ```
 
 
-![png](/assets/ipynb/2018-02-19-orthogonal-projections/Orthogonal\ projections_files/Orthogonal\ projections_4_0.png)
+![png](/assets/ipynb/2018-02-19-orthogonal-projections/Orthogonal%20projections_4_0.png)
 
 
 
@@ -231,7 +231,7 @@ ax.set_xlim([xmin, xmax]);
 ```
 
 
-![png](/assets/ipynb/2018-02-19-orthogonal-projections/Orthogonal\ projections_files/Orthogonal\ projections_10_0.png)
+![png](/assets/ipynb/2018-02-19-orthogonal-projections/Orthogonal%20projections_10_0.png)
 
 
 ## Approximating the sin(x) function by projecting it to a orthonormal basis of the polynomial inner product space of degree up to 5
@@ -311,7 +311,7 @@ ax.set_xlim([xmin, xmax]);
 ```
 
 
-![png](/assets/ipynb/2018-02-19-orthogonal-projections/Orthogonal\ projections_files/Orthogonal\ projections_14_0.png)
+![png](/assets/ipynb/2018-02-19-orthogonal-projections/Orthogonal%20projections_14_0.png)
 
 
 ## Measuring how quality of the approximation improves with the number of degree
@@ -347,7 +347,7 @@ ax.set_xlabel('x');
 ```
 
 
-![png](/assets/ipynb/2018-02-19-orthogonal-projections/Orthogonal\ projections_files/Orthogonal\ projections_16_0.png)
+![png](/assets/ipynb/2018-02-19-orthogonal-projections/Orthogonal%20projections_16_0.png)
 
 
 The above figure shows that the quality of the approximation improves **really** quickly with distance reaching almost 0 with the linear approximation of degree 3 and very minor improvements using the linear approximation of degree 4 and 5.
