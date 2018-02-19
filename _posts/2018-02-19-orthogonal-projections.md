@@ -45,17 +45,17 @@ Intuitively, this can be understood as ***describing*** sin(x) as a linear combi
 ### Why orthonormal basis?
 Orthonormal basis has the following nice property:
 $$v = \langle v, e_0 \rangle e_0 + \langle v, e_1 \rangle e_1 + \ldots + \langle v, e_n \rangle e_n$$
-for any $v \in V$ and the orthonormal basis $(e_0, e_1, \ldots, e_n)$. This means that we can find the coefficients for $e_j$ in the linear combination by simply computing the inner product of $v$ and $e_j$. For a non-orthonormal basis, finding the coefficients is more difficult.
+for any \\(v \in V\\) and the orthonormal basis \\((e_0, e_1, \ldots, e_n)\\). This means that we can find the coefficients for \\(e_j\\) in the linear combination by simply computing the inner product of \\(v\\) and \\(e_j\\). For a non-orthonormal basis, finding the coefficients is more difficult.
 
 ### Why orthogonal projection as approximation?
 Linear approximation by orthogonal projection onto the orthonormal basis ensures that the appoximation is optimal within the decided inner product subspace (i.e., solving a minimization problem). This comes from the proposition: 
 
-Suppose $U$ is a subspace of $V$ and $v \in V$. Then 
+Suppose \\(U\\) is a subspace of \\(V\\) and \\(v \in V\\). Then 
 $$||v - P_Uv|| \leq ||v-u||$$
 
-for every $u \in U$. Furthermore, if $u \in U$ and the inequality above is an equality, then $u = P_Uv$. 
+for every \\(u \in U\\(gc. Furthermore, if //(u \in U\\) and the inequality above is an equality, then //(u = P_Uv\\). 
 
-Note that here we require that $v \in V$ and $U \subseteq V$. This means that $v$ is from a potentially larger inner product space and we are projecting $v$ onto the $U$ subspace. This is different from just representing $v$ as a linear combination of the orthonormal basis of $V$ (the above). Often, we do not know the inner product space that $v$ comes from, or worse, $dim V = \infty$, i.e., $v$ comes from the infinite dimensional inner product space. It is an approximation because we lose the information about $v$ for the parts that are not contained within subspace $U$.
+Note that here we require that \\(v \in V\\) and \\(U \subseteq V\\). This means that \\(v\\) is from a potentially larger inner product space and we are projecting \\(v\\) onto the \\(U\\) subspace. This is different from just representing \\(v\\) as a linear combination of the orthonormal basis of \\(V\\) (the above). Often, we do not know the inner product space that \\(v\\) comes from, or worse, \\(dim V = \infty\\), i.e., \\(v\\) comes from the infinite dimensional inner product space. It is an approximation because we lose the information about \\(v\\) for the parts that are not contained within subspace \\(U\\).
 
 ### What are the use cases?
 One of the many applications is when you have a function that you can evaluate but that you don't know the exact form or if the exact form is too complicated to do any further manipulations, e.g., differentiation and integration. 
@@ -66,7 +66,7 @@ In the ML/DS domain, using a more simple linear approximation can also be motiva
 
 ### Essential concepts:
 - Gram-Schmidt procedure: transforms any basis to an orthonormal basis
-- Orthonormal basis: each of the components in the basis are orthogonal to each other, i.e., $\forall_{i, j \in {1, \dots, n} \wedge i \neq j} inner\_product(e_i, e_j) = 0$, and $\forall_{1 \leq i \leq n} ||e_i|| = 1$
+- Orthonormal basis: each of the components in the basis are orthogonal to each other, i.e., \\(\forall_{i, j \in {1, \dots, n} \wedge i \neq j} inner\_product(e_i, e_j) = 0\\), and \\(\forall_{1 \leq i \leq n} ||e_i|| = 1\\)
 
 ## Example from the book
 
@@ -235,18 +235,18 @@ ax.set_xlim([xmin, xmax]);
 
 
 ## Approximating the sin(x) function by projecting it to a orthonormal basis of the polynomial inner product space of degree up to 5
-This is easily achieved by using the linear combination properties of a orthonormal basis. Specifically, you would want a orthogonal projection since you can potentially represent a function in the infinite dimensional vector space, i.e., $P_{\infty}(F)$.
+This is easily achieved by using the linear combination properties of a orthonormal basis. Specifically, you would want a orthogonal projection since you can potentially represent a function in the infinite dimensional vector space, i.e., \\(P_{\infty}(F)\\).
 
-Suppose you want to approximate function $v(x)$ as a n-degree polynomial, then using projecting v onto the orthonormal basis of $U = span(e_0, e_1, \ldots, e_n)$ would get:
+Suppose you want to approximate function \\(v(x)\\) as a n-degree polynomial, then using projecting v onto the orthonormal basis of \\(U = span(e_0, e_1, \ldots, e_n)\\) would get:
 $$P_U(v) = \langle v, e_0 \rangle e_0 + \langle v, e_1 \rangle e_1 + \langle v, e_2 \rangle e_2 + \ldots + \langle v, e_n \rangle e_n$$
 
 ### Closest possible approximation
 Linear approximation by orthogonal projection onto the orthonormal basis also ensures that the appoximation is optimal (i.e., solving a minimization problem). This comes from the proposition: 
 
-Suppose $U$ is a subspace of $V$ and $v \in V$. Then 
+Suppose \\(U\\) is a subspace of \\(V\\) and \\(v \in V\\). Then 
 $$||v - P_Uv|| \leq ||v-u||$$
 
-for every $u \in U$. Furthermore, if $u \in U$ and the inequality above is an equality, then $u = P_Uv$.
+for every \\(u \in U\\). Furthermore, if \\(u \in U\\) and the inequality above is an equality, then \\(u = P_Uv\\).
 
 *** Note that the approximation works even for functions in the infinite dimensional space (i.e., any vectors / polynomials) since we are limiting the approximation to a finite dimensional subspace. ***
 
