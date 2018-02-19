@@ -67,7 +67,7 @@ In the ML/DS domain, using a more simple linear approximation can also be motiva
 
 ### Essential concepts
 - Gram-Schmidt procedure: Transforms any basis to an orthonormal basis
-- Orthonormal basis: Orthonormal basis: each of the components in the basis are orthogonal to each other, i.e., \\(\forall_{i, j \in {1, \dots, n} \wedge i \neq j} inner\_product(e_i, e_j) = 0\\), and \\(\forall_{1 \leq i \leq n} \|\|e_i\|\| = 1\\)
+- Orthonormal basis: each of the components in the basis are orthogonal to each other, i.e., \\(\forall_{i, j \in \{1, \dots, n\} \wedge i \neq j} \text{inner product}(e_i, e_j) = 0\\), and \\(\forall_{1 \leq i \leq n} \|\|e_i\|\| = 1\\)
 
 ## Example from the book
 
