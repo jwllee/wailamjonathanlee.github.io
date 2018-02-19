@@ -54,7 +54,7 @@ Linear approximation by orthogonal projection onto the orthonormal basis ensures
 Suppose \\(U\\) is a subspace of \\(V\\) and \\(v \in V\\). Then 
 $$||v - P_Uv|| \leq ||v-u||$$
 
-for every \\(u \in U\\(gc. Furthermore, if //(u \in U\\) and the inequality above is an equality, then //(u = P_Uv\\). 
+for every \\(u \in U\\). Furthermore, if //(u \in U\\) and the inequality above is an equality, then //(u = P_Uv\\). 
 
 Note that here we require that \\(v \in V\\) and \\(U \subseteq V\\). This means that \\(v\\) is from a potentially larger inner product space and we are projecting \\(v\\) onto the \\(U\\) subspace. This is different from just representing \\(v\\) as a linear combination of the orthonormal basis of \\(V\\) (the above). Often, we do not know the inner product space that \\(v\\) comes from, or worse, \\(dim V = \infty\\), i.e., \\(v\\) comes from the infinite dimensional inner product space. It is an approximation because we lose the information about \\(v\\) for the parts that are not contained within subspace \\(U\\).
 
