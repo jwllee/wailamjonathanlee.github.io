@@ -65,7 +65,7 @@ Using the linear approximation of the function, you can configure the "complexit
 
 In the ML/DS domain, using a more simple linear approximation can also be motivated by the necessity of being able to generalize and not overfit the data.
 
-### Essential concepts:
+### Essential concepts
 **Gram-Schmidt procedure:**
 
 Transforms any basis to an orthonormal basis
