@@ -4,6 +4,7 @@ date: 2018-02-19
 type: posts
 published: true
 comments: true
+mathjax: true
 categories: [ "linear algebra" ]
 ---
 
