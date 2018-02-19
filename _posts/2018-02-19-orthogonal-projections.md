@@ -66,8 +66,13 @@ Using the linear approximation of the function, you can configure the "complexit
 In the ML/DS domain, using a more simple linear approximation can also be motivated by the necessity of being able to generalize and not overfit the data.
 
 ### Essential concepts:
-- Gram-Schmidt procedure: transforms any basis to an orthonormal basis
-- Orthonormal basis: each of the components in the basis are orthogonal to each other, i.e., \\(\forall_{i, j \in {1, \dots, n} \wedge i \neq j} inner\_product(e_i, e_j) = 0\\), and \\(\forall_{1 \leq i \leq n} ||e_i|| = 1\\)
+**Gram-Schmidt procedure:**
+
+Transforms any basis to an orthonormal basis
+
+**Orthonormal basis:**
+
+Orthonormal basis: each of the components in the basis are orthogonal to each other, i.e., \\(\forall_{i, j \in {1, \dots, n} \wedge i \neq j} inner\_product(e_i, e_j) = 0\\), and \\(\forall_{1 \leq i \leq n} ||e_i|| = 1\\)
 
 ## Example from the book
 
