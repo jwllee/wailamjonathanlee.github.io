@@ -54,14 +54,14 @@ Linear approximation by orthogonal projection onto the orthonormal basis ensures
 Suppose \\(U\\) is a subspace of \\(V\\) and \\(v \in V\\). Then 
 $$||v - P_Uv|| \leq ||v-u||$$
 
-for every \\(u \in U\\). Furthermore, if //(u \in U\\) and the inequality above is an equality, then //(u = P_Uv\\). 
+for every \\(u \in U\\). Furthermore, if \\(u \in U\\) and the inequality above is an equality, then \\(u = P_Uv\\). 
 
-Note that here we require that \\(v \in V\\) and \\(U \subseteq V\\). This means that \\(v\\) is from a potentially larger inner product space and we are projecting \\(v\\) onto the \\(U\\) subspace. This is different from just representing \\(v\\) as a linear combination of the orthonormal basis of \\(V\\) (the above). Often, we do not know the inner product space that \\(v\\) comes from, or worse, \\(dim V = \infty\\), i.e., \\(v\\) comes from the infinite dimensional inner product space. It is an approximation because we lose the information about \\(v\\) for the parts that are not contained within subspace \\(U\\).
+Note that here we require that \\(v \in V\\) and \\(U \subseteq V\\). This means that \\(v\\) is from a potentially larger inner product space and we are projecting \\(v\\) onto the \\(U\\) subspace. This is different from just representing \\(v\\) as a linear combination of the orthonormal basis of \\(V\\). Often, we do not know the inner product space that \\(v\\) comes from, or worse, \\(dim V = \infty\\), i.e., \\(v\\) comes from the infinite dimensional inner product space. By approximating $v$ in a finite dimensional subspace $U$, we lose the information about \\(v\\) for the parts that are not contained within subspace \\(U\\).
 
 ### What are the use cases?
 One of the many applications is when you have a function that you can evaluate but that you don't know the exact form or if the exact form is too complicated to do any further manipulations, e.g., differentiation and integration. 
 
-Using the linear approximation of the function, you can configure the "complexity" of the approximation and also ensure you get a "nice" function which can be easily manipulated by linear maps, e.g., differentiation and integration.
+Using the linear approximation of the function, you can configure the "complexity" of the approximation and also ensure that you get a "nice" function which can be easily manipulated by linear maps, e.g., differentiation and integration.
 
 In the ML/DS domain, using a more simple linear approximation can also be motivated by the necessity of being able to generalize and not overfit the data.
 
@@ -249,7 +249,7 @@ $$||v - P_Uv|| \leq ||v-u||$$
 
 for every \\(u \in U\\). Furthermore, if \\(u \in U\\) and the inequality above is an equality, then \\(u = P_Uv\\).
 
-*** Note that the approximation works even for functions in the infinite dimensional space (i.e., any vectors / polynomials) since we are limiting the approximation to a finite dimensional subspace. ***
+***Note that the approximation works even for functions in the infinite dimensional space (i.e., any vectors / polynomials) since we are limiting the approximation to a finite dimensional subspace.***
 
 
 ```python
