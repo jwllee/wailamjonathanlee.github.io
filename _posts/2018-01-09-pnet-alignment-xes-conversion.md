@@ -7,7 +7,7 @@ comments: true
 categories: [ "prom" ]
 ---
 
-#### TR;DR
+#### TL;DR
 New ProM plugin that converts alignment results from PNReplayer to the XAlignedLog format.
 
 #### How?
