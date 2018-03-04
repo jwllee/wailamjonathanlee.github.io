@@ -31,5 +31,5 @@ This decomposition strategy tries to break down a petri net into fragments with 
 ![Screenshot of **Create Clusters** plugin](/assets/images/2018/2018-02-25-sese-decomposition-prom-plugin/createClustersPlugin.jpg)
 4. Create activity clusters (**Create Clusters**) using the causal graph.  
 ![Screenshot of **Split Accepting Petri Net** plugin configurations](/assets/images/2018/2018-02-25-sese-decomposition-prom-plugin/splitApnPlugin.jpg)  
-![Screenshot of max arcs per subnet configuration](/assets/images/2018/2018-02-25-sese-decomposition-prom-plugin/chooseMaxArc.jpg)  
 5. Start accepting petri net decomposer plugin (**Split Accepting Petri Net**) using the accepting petri net and activity clusters. Choose the SESE-based decomposition strategy and adjust the maximum number of arcs per subnet if necessary.   
+![Screenshot of max arcs per subnet configuration](/assets/images/2018/2018-02-25-sese-decomposition-prom-plugin/chooseMaxArc.jpg)  
