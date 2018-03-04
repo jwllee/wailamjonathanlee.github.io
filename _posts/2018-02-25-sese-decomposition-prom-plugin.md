@@ -2,7 +2,7 @@
 title: "SESE-based Decomposition ProM Plugin"
 date: 2018-02-25
 type: posts
-published: false
+published: true
 comments: true
 categories: [ "prom", "process mining" ]
 ---
